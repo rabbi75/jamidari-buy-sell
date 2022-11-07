@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<!-- Bootstrap -->
+
+<!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- Font Awesome -->
+
+<!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+<!-- Custom CSS -->
+
+    <title>Company</title>
+</head>
+<body class="company_page_body">
+
+<!-- Navbar -->
+
+<div class="navbar">
+
+    <!-- Top Bar -->
+    
+    <div class="container-fluid top_bar">
+        <div class="row col-12">
+            <div class="col-lg-12">
+                <ul class="mb-0">
+                    <li><i class="fa-solid fa-phone"></i> +880 1558-587415</li>
+                    <li class="email"><i class="fa-solid fa-envelope"></i> admin@digitalmarketingbd.com</li>
+                    <li>
+                        <ul class="mb-0 social_icon">
+                            <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-pinterest"></i></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- Top Bar -->
+
+    <div class="container-fluid">
+        <div class="row col-12 m-auto">
+            <div class="col-2 logo_col">
+                <a href="./index.html"><img src="./image/Jamidar.png" alt=""></a>
+            </div>
+            <div class="col-5 navbarItems">
+                <ul class="navitem">
+                    <li><a href="">For Rent</a></li>
+                    <li><a href="">For Sell</a></li>
+                    <li><a href="">Development</a></li>
+                </ul>
+            </div>
+            <div class="col-5 third_col third_side">
+
+                <div class="row">
+                    <div class="col-5 regis_col padding-2">
+                        <div class="header_third_part text-end">
+                            <p class="login_register login_register_pc"><span><a href="./login.html" class="login_text">Login</a></span> / <span><a href="./register.html" class="register_text">Register</a></span></p>
+                        </div>
+                    </div>
+
+                    <div class="col-4 hide_first padding-2">
+                        <a href="" class="offer_property">
+                            <div class="offer_button">
+                                <p>Offer Property</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-3 hambar_col padding-2">
+                        <div class="language text-center">
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Language</option>
+                                <option value="1">Bangli</option>
+                                <option value="2">English</option>
+                                <option value="3">Chinese</option>
+                              </select>
+                        </div>
+
+                        <div class="hambarger text-end">
+                            <i id="hambar" class="fa-solid fa-bars"></i>
+                        </div>
+
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- Responsive Navbar -->
+<div class="responsive_navbar" id="response_nav">
+    <i id="cross_nav" class="fa-sharp fa-solid fa-circle-xmark"></i>
+    <ul>
+        <li><a href="">For Rent</a></li>
+        <li><a href="">For Sell</a></li>
+        <li><a href="">Development</a></li>
+    </ul>
+
+    <div class="responsive_login_register text-center">
+        <p class="login_register"><span><a href="./login.html" class="login_text">Login</a></span> / <span><a href="./register.html" class="register_text">Register</a></span></p>
+    </div>
+
+    <button class="btn btn-lg mt-4">Offer Property</button>
+</div>
+
+<!-- Navbar -->
+
+
+
+<!-- Head Option -->
+    <div class="container-fluid company_number_title">
+        <h4 class="company_found_title"><span>18</span> Result found for <span class="company_name">Concord Group</span></h4>
+    </div>
+
+    <div class="container-fluid company_second_section">
+        <!-- Left Side -->
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="clear_filter mb-4">
+                    <h5>APPLIED FILTERS</h5>
+                    <a href=""><p class="text-center mb-0">Clear all Filters</p></a>
+                </div>
+                <div class="company_left_side">
+
+                    <div class="text-center apply_button">
+                        <a class="btn apply_btn">Apply Filters</a>
+                    </div>
+                    
+                    <hr>
+
+                    <h5 class="mb-4">LOCATION</h5>
+                    <input type="text" placeholder="Enter region, city, area..." class="form-control">
+
+                    <hr>
+
+                    <h5 class="mb-4">OFFER TYPE</h5>
+                    <div class="offer_type_check">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="offerRadioDefault" id="offerRadioDefault1">
+                            <label class="form-check-label" for="offerRadioDefault1">
+                              Rent
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="offerRadioDefault" id="offerRadioDefault2" checked>
+                            <label class="form-check-label" for="offerRadioDefault2">
+                              Buy
+                            </label>
+                          </div>
+                    </div>
+                    
+
+                      <hr>
+
+                      <h5 class="mb-4">PRICE ( BDT )</h5>
+                        <div class="row">
+                            <div class="col-6">
+                                <input type="text" placeholder="BDT Minimum" class="form-control">
+                            </div>
+                            <div class="col-6">
+                                <input type="text" placeholder="BDT Maximum" class="form-control">
+                            </div>
+                          </div>
+
+                          <hr>
+                      
+                        <h5 class="mb-4">PROPERTY TYPE</h5>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="propertyRadioDefault" id="propertyRadioDefault1">
+                            <label class="form-check-label" for="propertyRadioDefault1">
+                              Any
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="propertyRadioDefault" id="propertyRadioDefault2">
+                            <label class="form-check-label" for="propertyRadioDefault2">
+                              Land
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="propertyRadioDefault" id="propertyRadioDefault3">
+                            <label class="form-check-label" for="propertyRadioDefault3">
+                              Commercial Properties
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="propertyRadioDefault" id="propertyRadioDefault4" checked>
+                            <label class="form-check-label" for="propertyRadioDefault4">
+                              Houses
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="propertyRadioDefault" id="propertyRadioDefault5">
+                            <label class="form-check-label" for="propertyRadioDefault5">
+                              Apartments
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="propertyRadioDefault" id="propertyRadioDefault6">
+                            <label class="form-check-label" for="propertyRadioDefault6">
+                              Duplex
+                            </label>
+                          </div>
+
+                          <hr>
+
+                          <h5 class="mb-4">BUILDING SIZE</h5>
+                          <div class="row">
+                            <div class="col-6">
+                                <input type="text" placeholder="Minimum Size" class="form-control">
+                            </div>
+                            <div class="col-6">
+                                <input type="text" placeholder="Maximum Size" class="form-control">
+                            </div>
+                          </div>
+
+                          <hr>
+
+                          <h5 class="mb-4">LAND SIZE</h5>
+                          <div class="row">
+                            <div class="col-6">
+                                <input type="text" placeholder="Minimum Size" class="form-control">
+                            </div>
+                            <div class="col-6">
+                                <input type="text" placeholder="Maximum Size" class="form-control">
+                            </div>
+                          </div>
+
+                          <hr>
+
+                          <h5 class="mb-4">BEDROOMS</h5>
+                          <input type="text" placeholder="How many bad rooms ? ...." class="form-control">
+
+                          <hr>
+
+                          <h5 class="mb-4">BATHROOMS</h5>
+                          <input type="text" placeholder="How many bathrooms ? ...." class="form-control">
+
+                          <hr>
+
+                          <div class="text-center apply_button">
+                            <a class="btn apply_btn">Apply Filters</a>
+                          </div>
+
+                </div>
+
+            </div>
+            <!-- Left Side -->
+
+            <!-- Right Side -->
+            <div class="col-lg-9">
+                <div class="company_right_side">
+                    <div class="seller_information">
+                        <h5 class="mb-4">SELLER INFORMATION</h5>
+                        <div class="row">
+                            <div class="col-lg-2 col-md-3 text-sm-center">
+                                <img src="./image/800px-Concord_Logo.png" alt="">
+                            </div>
+                            <div class="col-lg-6 col-md-9">
+                                <h4>Concord Group</h4>
+                                <p class="text-success"><b><i class="fa-solid fa-check"></i> Certified Partner</b></p>
+                                <p class="mb-0"><i class="fa-solid fa-location-dot"></i> Concord Center, 43 North C/A, Gulshan-02, Dhaka-1212.</p>
+                            </div>
+                            <div class="col-lg-3 text-end mobile_and_tab_top">
+                                <button class="btn mt-2 call_btn"><i class="fa-solid fa-phone"></i> Call</button>
+                                <button class="btn mt-2 mail_btn"><i class="fa-solid fa-envelope"></i> Email</button>
+                            </div>
+
+                            <hr class="mt-4">
+
+                            <div id="see_more_section">
+                                <a href="" id="see_more_section_text"><h6 class="text-center mb-0">See More</h6></a>
+
+                                <div class="see_more_drop_section mt-4">
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo consequuntur nulla ipsum exercitationem, labore porro? Voluptatibus consectetur dolor natus tempore magni voluptas esse nam sequi facere assumenda deleniti ab nostrum, non quae?</p>
+
+                                    <p>Molestias corporis obcaecati minima incidunt fuga facilis, deleniti exercitationem nostrum, ipsa quaerat non perspiciatis, nemo perferendis alias iure hic explicabo ab iste cum consequatur? Adipisci cumque illum omnis.</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- 1 -->
+                <div class="row mt-4 full_right_cus">
+                    <div class="col-lg-4 image_left_pd_0">
+                        <div class="right_cus_img">
+                            <h6>PREMIUM</h6>
+                            <img src="./image/p10.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="row cus_info">
+                            <div class="col-10">
+                                <h4>2120 Sqft 3 Bedroom Apartment For Sell, Dhanmondi</h4>
+                                <p class="cus_add mb-0"><i class="fa-solid fa-location-dot"></i> Plot #6, Road #5, Dhanmondi, Dhaka</p>
+                                <p class="cus_para mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque dolore cumque aspernatur beatae, porro omnis sit amet consectetur adipisicing...</p>
+                                <b><p class="cus_agent">Contact agent for price</p></b>
+
+                            </div>
+                            <div class="col-2 cus_logo">
+                                <img src="./image/800px-Concord_Logo.png" alt="">
+                            </div>
+
+                            <div class="row facility">
+                                <div class="col-7">
+                                    <ul>
+                                        <li><b>3</b> Badrooms</li> |
+                                        <li><b>3</b> Baths</li> |
+                                        <li><b>3452</b> Total Area</li>
+                                            
+                                    </ul>
+                                </div>
+                                <div class="col-5 text-end">
+                                    <button class="btn mi_btn">More Info</button>
+                                    <button class="btn ca_btn">Contact Agent</button>
+                                </div>
+                                
+                                
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2 -->
+                <div class="row mt-4 full_right_cus">
+                    <div class="col-lg-4 image_left_pd_0">
+                        <div class="right_cus_img">
+                            <h6>PREMIUM</h6>
+                            <img src="./image/p2.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="row cus_info">
+                            <div class="col-10">
+                                <h4>2120 Sqft 3 Bedroom Apartment For Sell, Dhanmondi</h4>
+                                <p class="cus_add mb-0"><i class="fa-solid fa-location-dot"></i> Plot #6, Road #5, Dhanmondi, Dhaka</p>
+                                <p class="cus_para mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque dolore cumque aspernatur beatae, porro omnis sit amet consectetur adipisicing...</p>
+                                <b><p class="cus_agent">Contact agent for price</p></b>
+
+                            </div>
+                            <div class="col-2 cus_logo">
+                                <img src="./image/800px-Concord_Logo.png" alt="">
+                            </div>
+
+                            <div class="row facility">
+                                <div class="col-7">
+                                    <ul>
+                                        <li><b>3</b> Badrooms</li> |
+                                        <li><b>3</b> Baths</li> |
+                                        <li><b>3452</b> Total Area</li>
+                                            
+                                    </ul>
+                                </div>
+                                <div class="col-5 text-end">
+                                    <button class="btn mi_btn">More Info</button>
+                                    <button class="btn ca_btn">Contact Agent</button>
+                                </div>
+                                
+                                
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3 -->
+                <div class="row mt-4 full_right_cus">
+                    <div class="col-lg-4 image_left_pd_0">
+                        <div class="right_cus_img">
+                            <h6>PREMIUM</h6>
+                            <img src="./image/p9.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="row cus_info">
+                            <div class="col-10">
+                                <h4>2120 Sqft 3 Bedroom Apartment For Sell, Dhanmondi</h4>
+                                <p class="cus_add mb-0"><i class="fa-solid fa-location-dot"></i> Plot #6, Road #5, Dhanmondi, Dhaka</p>
+                                <p class="cus_para mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque dolore cumque aspernatur beatae, porro omnis sit amet consectetur adipisicing...</p>
+                                <b><p class="cus_agent">Contact agent for price</p></b>
+
+                            </div>
+                            <div class="col-2 cus_logo">
+                                <img src="./image/800px-Concord_Logo.png" alt="">
+                            </div>
+
+                            <div class="row facility">
+                                <div class="col-7">
+                                    <ul>
+                                        <li><b>3</b> Badrooms</li> |
+                                        <li><b>3</b> Baths</li> |
+                                        <li><b>3452</b> Total Area</li>
+                                            
+                                    </ul>
+                                </div>
+                                <div class="col-5 text-end">
+                                    <button class="btn mi_btn">More Info</button>
+                                    <button class="btn ca_btn">Contact Agent</button>
+                                </div>
+                                
+                                
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4 -->
+                <div class="row mt-4 full_right_cus">
+                    <div class="col-lg-4 image_left_pd_0">
+                        <div class="right_cus_img">
+                            <img src="./image/p1.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="row cus_info">
+                            <div class="col-10">
+                                <h4>2120 Sqft 3 Bedroom Apartment For Sell, Dhanmondi</h4>
+                                <p class="cus_add mb-0"><i class="fa-solid fa-location-dot"></i> Plot #6, Road #5, Dhanmondi, Dhaka</p>
+                                <p class="cus_para mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque dolore cumque aspernatur beatae, porro omnis sit amet consectetur adipisicing...</p>
+                                <b><p class="cus_agent">Contact agent for price</p></b>
+
+                            </div>
+                            <div class="col-2 cus_logo">
+                                <img src="./image/800px-Concord_Logo.png" alt="">
+                            </div>
+
+                            <div class="row facility">
+                                <div class="col-7">
+                                    <ul>
+                                        <li><b>3</b> Badrooms</li> |
+                                        <li><b>3</b> Baths</li> |
+                                        <li><b>3452</b> Total Area</li>
+                                            
+                                    </ul>
+                                </div>
+                                <div class="col-5 text-end">
+                                    <button class="btn mi_btn">More Info</button>
+                                    <button class="btn ca_btn">Contact Agent</button>
+                                </div>
+                                
+                                
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 5 -->
+                <div class="row mt-4 full_right_cus">
+                    <div class="col-lg-4 image_left_pd_0">
+                        <div class="right_cus_img">
+                            <img src="./image/p3.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="row cus_info">
+                            <div class="col-10">
+                                <h4>2120 Sqft 3 Bedroom Apartment For Sell, Dhanmondi</h4>
+                                <p class="cus_add mb-0"><i class="fa-solid fa-location-dot"></i> Plot #6, Road #5, Dhanmondi, Dhaka</p>
+                                <p class="cus_para mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque dolore cumque aspernatur beatae, porro omnis sit amet consectetur adipisicing...</p>
+                                <b><p class="cus_agent">Contact agent for price</p></b>
+
+                            </div>
+                            <div class="col-2 cus_logo">
+                                <img src="./image/800px-Concord_Logo.png" alt="">
+                            </div>
+
+                            <div class="row facility">
+                                <div class="col-7">
+                                    <ul>
+                                        <li><b>3</b> Badrooms</li> |
+                                        <li><b>3</b> Baths</li> |
+                                        <li><b>3452</b> Total Area</li>
+                                            
+                                    </ul>
+                                </div>
+                                <div class="col-5 text-end">
+                                    <button class="btn mi_btn">More Info</button>
+                                    <button class="btn ca_btn">Contact Agent</button>
+                                </div>
+                                
+                                
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 6 -->
+                <div class="row mt-4 full_right_cus">
+                    <div class="col-lg-4 image_left_pd_0">
+                        <div class="right_cus_img">
+                            <img src="./image/p7.webp" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="row cus_info">
+                            <div class="col-10">
+                                <h4>2120 Sqft 3 Bedroom Apartment For Sell, Dhanmondi</h4>
+                                <p class="cus_add mb-0"><i class="fa-solid fa-location-dot"></i> Plot #6, Road #5, Dhanmondi, Dhaka</p>
+                                <p class="cus_para mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque dolore cumque aspernatur beatae, porro omnis sit amet consectetur adipisicing...</p>
+                                <b><p class="cus_agent">Contact agent for price</p></b>
+
+                            </div>
+                            <div class="col-2 cus_logo">
+                                <img src="./image/800px-Concord_Logo.png" alt="">
+                            </div>
+
+                            <div class="row facility">
+                                <div class="col-7">
+                                    <ul>
+                                        <li><b>3</b> Badrooms</li> |
+                                        <li><b>3</b> Baths</li> |
+                                        <li><b>3452</b> Total Area</li>
+                                            
+                                    </ul>
+                                </div>
+                                <div class="col-5 text-end">
+                                    <button class="btn mi_btn">More Info</button>
+                                    <button class="btn ca_btn">Contact Agent</button>
+                                </div>
+                                
+                                
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 7 -->
+                <div class="row mt-4 full_right_cus">
+                    <div class="col-lg-4 image_left_pd_0">
+                        <div class="right_cus_img">
+                            <img src="./image/p10.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="row cus_info">
+                            <div class="col-10">
+                                <h4>2120 Sqft 3 Bedroom Apartment For Sell, Dhanmondi</h4>
+                                <p class="cus_add mb-0"><i class="fa-solid fa-location-dot"></i> Plot #6, Road #5, Dhanmondi, Dhaka</p>
+                                <p class="cus_para mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque dolore cumque aspernatur beatae, porro omnis sit amet consectetur adipisicing...</p>
+                                <b><p class="cus_agent">Contact agent for price</p></b>
+
+                            </div>
+                            <div class="col-2 cus_logo">
+                                <img src="./image/800px-Concord_Logo.png" alt="">
+                            </div>
+
+                            <div class="row facility">
+                                <div class="col-7">
+                                    <ul>
+                                        <li><b>3</b> Badrooms</li> |
+                                        <li><b>3</b> Baths</li> |
+                                        <li><b>3452</b> Total Area</li>
+                                            
+                                    </ul>
+                                </div>
+                                <div class="col-5 text-end">
+                                    <button class="btn mi_btn">More Info</button>
+                                    <button class="btn ca_btn">Contact Agent</button>
+                                </div>
+                                
+                                
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 8 -->
+                <div class="row mt-4 full_right_cus">
+                    <div class="col-lg-4 image_left_pd_0">
+                        <div class="right_cus_img">
+                            <img src="./image/p4.webp" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="row cus_info">
+                            <div class="col-10">
+                                <h4>2120 Sqft 3 Bedroom Apartment For Sell, Dhanmondi</h4>
+                                <p class="cus_add mb-0"><i class="fa-solid fa-location-dot"></i> Plot #6, Road #5, Dhanmondi, Dhaka</p>
+                                <p class="cus_para mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque dolore cumque aspernatur beatae, porro omnis sit amet consectetur adipisicing...</p>
+                                <b><p class="cus_agent">Contact agent for price</p></b>
+
+                            </div>
+                            <div class="col-2 cus_logo">
+                                <img src="./image/800px-Concord_Logo.png" alt="">
+                            </div>
+
+                            <div class="row facility">
+                                <div class="col-7">
+                                    <ul>
+                                        <li><b>3</b> Badrooms</li> |
+                                        <li><b>3</b> Baths</li> |
+                                        <li><b>3452</b> Total Area</li>
+                                            
+                                    </ul>
+                                </div>
+                                <div class="col-5 text-end">
+                                    <button class="btn mi_btn">More Info</button>
+                                    <button class="btn ca_btn">Contact Agent</button>
+                                </div>
+                                
+                                
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 9 -->
+                <div class="row mt-4 full_right_cus">
+                    <div class="col-lg-4 image_left_pd_0">
+                        <div class="right_cus_img">
+                            <img src="./image/p6.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="row cus_info">
+                            <div class="col-10">
+                                <h4>2120 Sqft 3 Bedroom Apartment For Sell, Dhanmondi</h4>
+                                <p class="cus_add mb-0"><i class="fa-solid fa-location-dot"></i> Plot #6, Road #5, Dhanmondi, Dhaka</p>
+                                <p class="cus_para mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque dolore cumque aspernatur beatae, porro omnis sit amet consectetur adipisicing...</p>
+                                <b><p class="cus_agent">Contact agent for price</p></b>
+
+                            </div>
+                            <div class="col-2 cus_logo">
+                                <img src="./image/800px-Concord_Logo.png" alt="">
+                            </div>
+
+                            <div class="row facility">
+                                <div class="col-7">
+                                    <ul>
+                                        <li><b>3</b> Badrooms</li> |
+                                        <li><b>3</b> Baths</li> |
+                                        <li><b>3452</b> Total Area</li>
+                                            
+                                    </ul>
+                                </div>
+                                <div class="col-5 text-end">
+                                    <button class="btn mi_btn">More Info</button>
+                                    <button class="btn ca_btn">Contact Agent</button>
+                                </div>
+                                
+                                
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 10 -->
+                <div class="row mt-4 full_right_cus">
+                    <div class="col-lg-4 image_left_pd_0">
+                        <div class="right_cus_img">
+                            <img src="./image/p10.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="row cus_info">
+                            <div class="col-10">
+                                <h4>2120 Sqft 3 Bedroom Apartment For Sell, Dhanmondi</h4>
+                                <p class="cus_add mb-0"><i class="fa-solid fa-location-dot"></i> Plot #6, Road #5, Dhanmondi, Dhaka</p>
+                                <p class="cus_para mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque dolore cumque aspernatur beatae, porro omnis sit amet consectetur adipisicing...</p>
+                                <b><p class="cus_agent">Contact agent for price</p></b>
+
+                            </div>
+                            <div class="col-2 cus_logo">
+                                <img src="./image/800px-Concord_Logo.png" alt="">
+                            </div>
+
+                            <div class="row facility">
+                                <div class="col-7">
+                                    <ul>
+                                        <li><b>3</b> Badrooms</li> |
+                                        <li><b>3</b> Baths</li> |
+                                        <li><b>3452</b> Total Area</li>
+                                            
+                                    </ul>
+                                </div>
+                                <div class="col-5 text-end">
+                                    <button class="btn mi_btn">More Info</button>
+                                    <button class="btn ca_btn">Contact Agent</button>
+                                </div>
+                                
+                                
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                
+                </div>
+
+                <!-- Right Side -->
+
+            </div>
+            
+        </div>
+            
+    </div>
+    
+
+<!-- Head Option -->
+
+
+
+<!-- Footer Section -->
+<footer>
+    <div class="footer_section_one py-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <h5>Buy And Sell</h5>
+                    <ul>
+                        <li><a href="">- Industrial Property Selling</a></li>
+                        <li><a href="">- Personal property selling</a></li>
+                        <li><a href="">- Plot buy&sell</a></li>
+                        <li><a href="">- Flat buy&sell</a></li>
+                        <li><a href="">- Property material buy&sell</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="footer_heading_2">Document Processing</h5>
+                    <ul>
+                        <li><a href="">- SA, CS, RS, City Survey</a></li>
+                        <li><a href="">- Name Transfer</a></li>
+                        <li><a href="">- Old document processing</a></li>
+                        <li><a href="">- New document creation</a></li>
+                        <li><a href="">- Inherited property clearance</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="footer_heading_3">Real Estate Productss</h5>
+                    <ul>
+                        <li><a href="">- Complete Law support</a></li>
+                        <li><a href="">- Find investors for the property</a></li>
+                        <li><a href="">- Residential property advisor</a></li>
+                        <li><a href="">- Commercial property advisor</a></li>
+                        <li><a href="">- Govt. and Private project</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="footer_heading_4">Property Marketing</h5>
+                    <ul>
+                        <li><a href="">- Rent advertisement</a></li>
+                        <li><a href="">- Tenant management</a></li>
+                        <li><a href="">- Real estate company promotion</a></li>
+                        <li><a href="">- Vendor promotion</a></li>
+                        <li><a href="">- Property advertisement setup</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer_section_two py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12 text-center footer_two_border_one">
+                    <p><a href="">Terms And Comdition</a></p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 text-center footer_two_border_two">
+                    <p><a href="">Privacy And Cokies</a></p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 text-center footer_two_border_three">
+                    <p><a href="">Refund Policy</a></p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 text-center">
+                    <p><a href="">Disclaimer</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="copywrite text-center py-3">
+        <p>&copy; <span id="date"></span> DMS Bangladesh. All Rights Reserved. | Design & Development By:- <a href="https://www.digitalmarketingbd.com/">Digital Marketing Solution (Pvt.) Ltd.</a></p>
+    </div>
+    
+</footer>
+<!-- Footer Section -->
+
+
+
+<!-- Custom JS -->
+    <script src="./js/app.js"></script>
+<!-- Custom JS -->
+
+<!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<!-- Bootstrap -->
+    
+</body>
+</html>
